@@ -1,12 +1,14 @@
-import React from 'react'
+import { useState } from "react";
 
-const componentName = () => {
+
+const Search = ({inputListener, searchButton}) => {
+   
     return (
         <div>
-            <input type="text"></input>
-            <button>Click Here</button>
+            <input type="text" onChange={inputListener}></input>
+            <button onClick={searchButton }>Click Here</button>
         </div>
     )
 }
 
-export default componentName
+export default Search;
