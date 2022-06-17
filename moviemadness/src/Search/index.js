@@ -5,7 +5,7 @@ const Search = ({inputListener, searchButton}) => {
    
     return (
         <div>
-            <input type="text" onChange={inputListener}></input>
+            <input placeholder="Type the movie you want to find here.." type="text" onChange={inputListener}></input>
             <button onClick={searchButton }>Click Here</button>
         </div>
     )

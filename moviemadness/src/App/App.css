@@ -1,28 +1,24 @@
 body {
 	background: grey;
 	color: #ffffff;
-  text-align: center;
+    text-align: center;
+
 }
 
+
+.App {
+	margin: 10px;
+}
+
+p {
+	text-align: center;
+}
 .movie-app > .row {
 	overflow-x: auto;
 	flex-wrap: nowrap;
 }
 
-.image-container {
-	position: relative;
-	transition: transform 0.2s;
-}
 
 
-.overlay {
-	position: absolute;
-	background: rgba(0, 0, 0, 0.8);
-	width: 100%;
-	transition: 0.5s ease;
-	opacity: 0;
-	bottom: 0;
-	font-size: 20px;
-	padding: 20px;
-	text-align: center;
-}
+
+
