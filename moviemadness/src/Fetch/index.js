@@ -3,6 +3,7 @@ import React, {useState, useEffect} from 'react';
 export const MovieFetch = ({movieTitle}) => {
     const [movie, setMovie]= useState("");
 //    const [movies, setMovies]= useState();
+    const [movies, setMovies]= useState();
 
     useEffect (()=> {
         async function getData(){ 
