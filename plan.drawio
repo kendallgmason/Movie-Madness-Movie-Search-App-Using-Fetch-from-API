@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="vxkhmIxUUCJanXJf1x7o" name="Page-1">
+        <mxGraphModel dx="1029" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="50" width="460" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Search Your Movie" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="180" width="340" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Welcome to Movie Madness" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="80" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Button" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="260" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="310" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="310" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="310" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="440" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="440" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="440" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Movie Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="320" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="350" width="65" height="65" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
