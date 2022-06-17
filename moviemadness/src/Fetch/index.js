@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 
 export const MovieFetch = ({movieTitle}) => {
     const [movie, setMovie]= useState("");
-    const [movies, setMovies]= useState([]);
+    const [movies, setMovies]= useState();
 
     useEffect (()=> {
         async function getData(){
@@ -29,6 +29,7 @@ export const MovieFetch = ({movieTitle}) => {
             <h3>Released: {movie.Year}, Runtime: {movie.Runtime}</h3>
             <p>{movie.Plot}</p>
             <h2>{movie.imdbRating}</h2>
+            
             <ul>
             {movies.Search.map((movie) => (<li>{movie.Title}</li>
             ))}
@@ -41,3 +42,4 @@ export const MovieFetch = ({movieTitle}) => {
 
 
 export default MovieFetch;
+//hello
