@@ -1,3 +1,12 @@
-<h1> Search </h1>
+import React from 'react'
 
-export
+const componentName = () => {
+    return (
+        <div>
+            <input type="text"></input>
+            <button>Click Here</button>
+        </div>
+    )
+}
+
+export default componentName
