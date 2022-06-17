@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react';
 
 export const MovieFetch = ({movieTitle}) => {
-    const [image, setImage]= useState("");
-    const [rating, setRating]= useState("");
-
+    // const [image, setImage]= useState("");
+    // const [rating, setRating]= useState("");
+    const [movie, setMovie]= useState("");
 
     useEffect (()=> {
         async function getData(){
@@ -12,19 +12,22 @@ export const MovieFetch = ({movieTitle}) => {
             if (data.Response === 'False') {
                 console.log(`Movie not found`)
             }; 
-            setImage(data.Poster);
-            setRating (data.imdbRating);
+            setMovie(data);
           
         };
         getData();
+        console.log(movie)
     }, [movieTitle])
 
 
     return (
         <div className="movies">
-            <img src={image} alt="movie details"/>
-            <p>IMDB rating: {rating} </p>
-           
+            <h1>{movie.Title}</h1>
+            <img src={movie.Poster} alt="movie details"/>
+            <h3>{movie.Actors}</h3> 
+            <h3>Released: {movie.Year}, Runtime: {movie.Runtime}</h3>
+            <p>{movie.Plot}</p>
+            <h2>{movie.imdbRating}</h2>
         </div>
     )}
 
