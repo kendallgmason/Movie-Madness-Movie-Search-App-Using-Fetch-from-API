@@ -10,18 +10,16 @@ function App() {
    const [search, setSearch] = useState();
    
    function inputListener(e) {
-       setInput(e.target.value);
-       console.log(input);
+       setInput(e.target.value); 
    }
 
    function searchButton() {
        setSearch(input);
-       console.log(search);
    }
   
   return (
     <div className="App">
-    <MovieFetch />
+    <MovieFetch movieTitle={search} />
     <Search inputListener={inputListener} searchButton={searchButton}/>
     </div>
   );
