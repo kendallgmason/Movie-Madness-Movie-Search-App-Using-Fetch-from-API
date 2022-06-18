@@ -1,21 +1,13 @@
+* {
+	font-family: Georgia, 'Times New Roman', Times, serif
+}
 body {
 	background: grey;
-	color: #ffffff;
-    text-align: center;
-
 }
-
+h1 {text-align: center;}
 
 .App {
 	margin: 10px;
-}
-
-p {
-	text-align: center;
-}
-.movie-app > .row {
-	overflow-x: auto;
-	flex-wrap: nowrap;
 }
 
 

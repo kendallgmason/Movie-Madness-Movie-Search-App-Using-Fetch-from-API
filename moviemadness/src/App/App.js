@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Search from '../Search';
-import MovieFetch from '../Fetch';
+import Movie from '../Movie';
+import MovieList from '../MovieList'
+
 import './App.css';
 
 
@@ -19,8 +21,9 @@ function App() {
   
   return (
     <div className="App">
-    <MovieFetch movieTitle={search} />
+    <Movie movieTitle={search} />
     <Search inputListener={inputListener} searchButton={searchButton}/>
+    <MovieList movieTitle={search} />
     </div>
   );
 }
