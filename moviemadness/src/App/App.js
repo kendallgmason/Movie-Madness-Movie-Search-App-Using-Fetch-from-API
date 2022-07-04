@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Search from '../Search';
 import Movie from '../Movie';
 import MovieList from '../MovieList'
-
+import Title from '../Title'
 import './App.css';
 
 
@@ -21,9 +21,10 @@ function App() {
   
   return (
     <div className="App">
+    <Title/>
     <Movie movieTitle={search} />
     <Search inputListener={inputListener} searchButton={searchButton}/>
-    <MovieList movieTitle={search} />
+    <MovieList movieTitle={search} setSearch={setSearch} />
     </div>
   );
 }
