@@ -1,5 +1,7 @@
-<img src="./images/Screenshot 2022-07-06 at 22.00.11.png" style="width: 1200px" />
-
+<p align="center">
+<img src="./Screenshot 2022-07-06 at 23.37.08.png" style="width: 800px" />
+<img src="./Screenshot 2022-07-06 at 23.37.27.png" style="width: 800px" />
+</p>
 
 
 </br></br>
