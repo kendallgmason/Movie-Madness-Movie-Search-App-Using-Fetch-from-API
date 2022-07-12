@@ -14,6 +14,11 @@
 
 This App Fetches data from a Movie API, then displays different details from that API in our APP. You can search for any movie and find the plot, actors, reviews and an image of the film. 
 
+
+<br>
+
+Live Demo: https://moviemadness.netlify.app/
+
 </br></br>
 
 ### :mortar_board: Main Learning Points:
